@@ -1,0 +1,215 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 70px; 
+    
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 10; 
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar .logo p {
+    margin: 5px 0;
+}
+
+.nav-links {
+list-style: none;
+display: flex;
+margin-left: 0px;  
+background-color: #fcfdfc;
+padding: 30px ;
+gap: 15px;
+
+
+
+}
+
+.nav-links a {
+color: rgb(15, 15, 15);
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+padding: 8px 16px;
+transition: background-color 0.3s ease;
+position: relative;
+left: 400px;
+top: 20px;
+}
+
+.nav-links a:hover {
+    background-color: #07b1f5;
+    border-radius: 4px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0077b5; /* Change color on hover */
+}
+
+/* Individual icon colors */
+.fab.fa-instagram {
+    color: #f8eff1;
+}
+
+.fab.fa-facebook {
+    color: #fdfeff;
+}
+
+.fab.fa-whatsapp {
+    color: #f6faf8;
+}
+
+.fab.fa-twitter {
+    color: #f8eff1;
+}
+
+ 
+ /* .img img {
+    width: 100%;
+    height: auto;
+  
+} 
+
+.img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    position: relative;
+    top: 250px;
+    color: #080808;
+}
+.img p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    top: 300px;
+    color: #080808;
+} */
+
+.img {
+position: relative; 
+display: inline-block;
+width: 100%;
+}
+.img img {
+width: 100%; 
+height: auto; 
+display: block; 
+filter: blur(2px);
+}
+
+.img h1, .img p {
+position: absolute; 
+color: white; 
+text-align: center; 
+width: 100%; 
+left: 50%; 
+transform: translateX(-50%); 
+margin: 0; 
+}
+
+.img h1 {
+top: 30%; 
+font-size: 60px; 
+font-weight: bold;
+text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+}
+
+.img p {
+top: 40%; 
+font-size: 1.5rem; 
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+margin-bottom: 10px; 
+}
+.office-goals1{
+
+background-color: #07b1f5;
+height: 140px;
+width: 450px;
+box-sizing: border-box;
+border-radius: 4px;  
+margin-left: 120px;
+}
+
+.office-goals1 h4, h5{
+
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 25px;
+
+
+}
+.office-goals2{
+
+background-color: #0e7777;
+height: 140px;
+width: 450px;
+display: flex;
+justify-content: center;
+margin-left: 570px;
+position: absolute;
+top: 1091px;
+border-radius: 4px;
+}
+.office-goals2 h4, .office-goals2 h5{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 25px;
+}
+
+.office-goals3{
+
+background-color: #07b1f5;
+height: 140px;
+width: 450px;
+display: flex;
+justify-content: center;
+margin-left: 1020px;
+position: absolute;
+top: 1091px;
+border-radius: 4px;
+}
+

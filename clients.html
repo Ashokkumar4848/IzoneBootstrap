@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+      <!-- Booststrsp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <!-- Remix icon -->
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+<style>
+    .navbar-nav li a{
+  font-weight: bold;
+  color: #050505;
+}
+
+.carousel-item img {
+  object-fit: cover; 
+  filter: brightness(0.5);
+  
+}
+footer{
+    background: #1C325B;
+    
+}
+footer .nav a{
+    color: white;
+    
+}
+
+.navbar-nav li a{
+  font-weight: bold;
+  color: #050505;
+}
+
+.pro img {
+  width: 100%;
+  height: 100%;
+  animation: fadeInScale 1.5s ease-out;
+  
+}
+
+.pro:hover{
+  
+    border: none;
+  
+}
+
+/* Define the animation */
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Starts smaller */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Ends at normal size */
+  }
+}
+
+body {
+  padding-top: 70px; /* Adjust based on your navbar height */
+}
+
+/* Add this to your CSS file or in a <style> tag */
+    .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
+
+
+</style>
+</head>
+<body>
+
+      <!-- Navbar -->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid mx-5">
+              <a class="navbar-brand" href="#"><img class="w-100" src="izone.png" alt="" ></a>
+              <button class="navbar-toggler ms-auto bg-light"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mx-5 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Development
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Website Development</a></li>
+                      <li><a class="dropdown-item" href="#">Softwore Development</a></li>
+                      
+                      <li><a class="dropdown-item" href="#">App Development</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Development
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Bluk SMS</a></li>
+                      <li><a class="dropdown-item" href="#">Voice SMS</a></li>
+                
+                      <li><a class="dropdown-item" href="#">Whatsapp Marketing</a></li>
+                      <li><a class="dropdown-item" href="#">Social Media Marketing</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Clients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Career</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+        
+    </header>
+    
+ <!-- Carousel Section -->
+    <div class="carousel slide" id="carouselExampleControls" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+                <img src="carousel-1.jpg" class="d-block w-100 " style="height: 500px;" alt="First slide">
+                <div class="carousel-caption position-absolute start-25 top-50 text-align-center">
+                    <h1 class="fw-bold fs-1">Clients</h1>
+                    <p class="fs-3">Home O Clients</p>
+                  </div>
+            </div>
+            </div>
+            </div> 
+            
+            <!-- Projects -->
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="pro col-md-4 mt-5 ">
+                        <img src="project-1.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-2.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-3.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-4.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-5.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-6.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-7.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-8.jpg" alt="">
+                    </div>
+                    <div class="pro col-md-4 mt-5">
+                        <img src="project-9.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+       
+
+      <!-- footer -->
+
+      <footer class="my-5">
+        <div class="container mt-5 p-5" >
+            <div class="row text-light ">
+                <div class="col-md-3" >
+                    <div class="logo my-4">
+                        <img src="izone.png" alt="logo" class=" rounded img-fluid mx-auto d-block"
+                            style="width: 180px; height: 100px;">
+                    </div>
+                    <p class="text-center ">To get regular update via Whatsapp from izone subscribe here.</p>
+                    <input type="text" name="name" id="name" class="mx-auto my-3 form-control"
+                        placeholder="Your WhatsApp">
+                    <button type="button" class="btn btn-primary mb-3 "><b> Subscribe</b></button>
+                </div>
+
+                <div class="col-md-3">
+                    <!-- title -->
+                    <h2>Get In Touch</h2>
+                    <!-- addresss -->
+                    <address>
+                        <i class="fa-solid fa-location-dot p-2 " style="color: #01a5eb;"></i> 10/20,Mambalasalai, <br>
+                        Srirangam, Trichy <br>
+                        <i class="fa-solid fa-envelope p-2"  style="color: #01a5eb;"></i>  innovativezone.tech@gmail.com <br>
+                        <i class="fa-solid fa-phone p-2" style="color: #01a5eb;"></i>   +91-9943077284
+                    </address>
+                    <div class="icon mb-3">
+                       <a href="#"><i class="fa-brands fa-twitter mx-2"></i></a> 
+                       <a href="#"><i class="fa-brands fa-instagram mx-2"></i></a>
+                       <a href=""><i class="fa-brands fa-whatsapp mx-2"></i></a>     
+                        <a href=""><i class="fa-brands fa-linkedin mx-2"></i></a> 
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="nav flex-column ">
+                        <h2>Quick Links</h2>
+                        <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Website Development</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="#">Digital Election Campaign</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Bulk SMS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Clients</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <h2>Popular Link</h2>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bulk Sms Panel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bulk Voice Panel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bulk WhatsApp Panel</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+</footer>
+
+     <!-- Booststrsp -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+     <script>
+       const ScrollRevealOption = {
+         distance: "50px",
+         origin: "bottom",
+         duration: 1000,
+       };
+   
+       ScrollReveal().reveal(".container", {
+         ...ScrollRevealOption,
+       });
+     </script>
+
+
+</body>
+</html>
